@@ -1,0 +1,339 @@
+
+SUBJECT #1.0
+Accuracy Score:  0.5277777777777778
+Confusion Matrix:  [[14, 13], [21, 24]]
+
+SUBJECT #2.0
+Accuracy Score:  0.676056338028169
+Confusion Matrix:  [[35, 6], [17, 13]]
+
+SUBJECT #3.0
+Accuracy Score:  0.5657894736842105
+Confusion Matrix:  [[19, 14], [19, 24]]
+
+SUBJECT #4.0
+Accuracy Score:  0.5428571428571428
+Confusion Matrix:  [[15, 10], [22, 23]]
+
+SUBJECT #6.0
+Accuracy Score:  0.5915492957746479
+Confusion Matrix:  [[14, 9], [20, 28]]
+
+SUBJECT #7.0
+Accuracy Score:  0.6351351351351351
+Confusion Matrix:  [[38, 10], [17, 9]]
+
+SUBJECT #8.0
+Accuracy Score:  0.5945945945945946
+Confusion Matrix:  [[15, 7], [23, 29]]
+
+SUBJECT #9.0
+Accuracy Score:  0.4246575342465753
+Confusion Matrix:  [[16, 4], [38, 15]]
+
+SUBJECT #10.0
+Accuracy Score:  0.5866666666666667
+Confusion Matrix:  [[30, 5], [26, 14]]
+
+SUBJECT #11.0
+Accuracy Score:  0.547945205479452
+Confusion Matrix:  [[28, 7], [26, 12]]
+
+SUBJECT #12.0
+Accuracy Score:  0.46153846153846156
+Confusion Matrix:  [[21, 5], [37, 15]]
+
+SUBJECT #13.0
+Accuracy Score:  0.5394736842105263
+Confusion Matrix:  [[17, 12], [23, 24]]
+
+SUBJECT #14.0
+Accuracy Score:  0.5070422535211268
+Confusion Matrix:  [[13, 10], [25, 23]]
+
+SUBJECT #15.0
+Accuracy Score:  0.5135135135135135
+Confusion Matrix:  [[12, 10], [26, 26]]
+
+SUBJECT #16.0
+Accuracy Score:  0.6216216216216216
+Confusion Matrix:  [[13, 3], [25, 33]]
+
+SUBJECT #17.0
+Accuracy Score:  0.5068493150684932
+Confusion Matrix:  [[26, 7], [29, 11]]
+
+SUBJECT #18.0
+Accuracy Score:  0.2857142857142857
+Confusion Matrix:  [[20, 0], [50, 0]]
+
+SUBJECT #19.0
+Accuracy Score:  0.47058823529411764
+Confusion Matrix:  [[17, 17], [19, 15]]
+
+SUBJECT #20.0
+Accuracy Score:  0.6575342465753424
+Confusion Matrix:  [[35, 6], [19, 13]]
+
+SUBJECT #22.0
+Accuracy Score:  0.4864864864864865
+Confusion Matrix:  [[15, 15], [23, 21]]
+
+SUBJECT #23.0
+Accuracy Score:  0.4657534246575342
+Confusion Matrix:  [[21, 6], [33, 13]]
+
+SUBJECT #24.0
+Accuracy Score:  0.547945205479452
+Confusion Matrix:  [[27, 6], [27, 13]]
+
+SUBJECT #25.0
+Accuracy Score:  0.44
+Confusion Matrix:  [[18, 22], [20, 15]]
+
+SUBJECT #26.0
+Accuracy Score:  0.4861111111111111
+Confusion Matrix:  [[26, 9], [28, 9]]
+
+SUBJECT #27.0
+Accuracy Score:  0.5909090909090909
+Confusion Matrix:  [[16, 12], [15, 23]]
+
+SUBJECT #28.0
+Accuracy Score:  0.5616438356164384
+Confusion Matrix:  [[31, 7], [25, 10]]
+
+SUBJECT #29.0
+Accuracy Score:  0.581081081081081
+Confusion Matrix:  [[17, 12], [19, 26]]
+
+SUBJECT #30.0
+Accuracy Score:  0.6086956521739131
+Confusion Matrix:  [[16, 8], [19, 26]]
+
+SUBJECT #31.0
+Accuracy Score:  0.4084507042253521
+Confusion Matrix:  [[18, 7], [35, 11]]
+
+SUBJECT #32.0
+Accuracy Score:  0.6716417910447762
+Confusion Matrix:  [[16, 7], [15, 29]]
+
+SUBJECT #33.0
+Accuracy Score:  0.6
+Confusion Matrix:  [[19, 14], [14, 23]]
+
+SUBJECT #34.0
+Accuracy Score:  0.4714285714285714
+Confusion Matrix:  [[17, 17], [20, 16]]
+
+SUBJECT #35.0
+Accuracy Score:  0.6428571428571429
+Confusion Matrix:  [[18, 7], [18, 27]]
+
+SUBJECT #36.0
+Accuracy Score:  0.56
+Confusion Matrix:  [[31, 8], [25, 11]]
+
+SUBJECT #37.0
+Accuracy Score:  0.41333333333333333
+Confusion Matrix:  [[31, 0], [44, 0]]
+
+SUBJECT #39.0
+Accuracy Score:  0.625
+Confusion Matrix:  [[16, 8], [19, 29]]
+
+SUBJECT #40.0
+Accuracy Score:  0.6
+Confusion Matrix:  [[32, 7], [21, 10]]
+
+SUBJECT #41.0
+Accuracy Score:  0.5555555555555556
+Confusion Matrix:  [[32, 9], [23, 8]]
+
+SUBJECT #42.0
+Accuracy Score:  0.5540540540540541
+Confusion Matrix:  [[17, 13], [20, 24]]
+
+SUBJECT #43.0
+Accuracy Score:  0.45588235294117646
+Confusion Matrix:  [[20, 7], [30, 11]]
+
+SUBJECT #44.0
+Accuracy Score:  0.527027027027027
+Confusion Matrix:  [[12, 9], [26, 27]]
+
+SUBJECT #45.0
+Accuracy Score:  0.5588235294117647
+Confusion Matrix:  [[27, 7], [23, 11]]
+
+SUBJECT #46.0
+Accuracy Score:  0.5362318840579711
+Confusion Matrix:  [[29, 10], [22, 8]]
+
+SUBJECT #47.0
+Accuracy Score:  0.5694444444444444
+Confusion Matrix:  [[13, 9], [22, 28]]
+
+SUBJECT #48.0
+Accuracy Score:  0.48
+Confusion Matrix:  [[17, 17], [22, 19]]
+
+SUBJECT #49.0
+Accuracy Score:  0.6266666666666667
+Confusion Matrix:  [[24, 14], [14, 23]]
+
+SUBJECT #50.0
+Accuracy Score:  0.7285714285714285
+Confusion Matrix:  [[24, 10], [9, 27]]
+
+SUBJECT #51.0
+Accuracy Score:  0.5205479452054794
+Confusion Matrix:  [[12, 9], [26, 26]]
+
+SUBJECT #52.0
+Accuracy Score:  0.6571428571428571
+Confusion Matrix:  [[12, 1], [23, 34]]
+
+SUBJECT #53.0
+Accuracy Score:  0.47297297297297297
+Confusion Matrix:  [[15, 16], [23, 20]]
+
+SUBJECT #54.0
+Accuracy Score:  0.5068493150684932
+Confusion Matrix:  [[24, 7], [29, 13]]
+
+SUBJECT #55.0
+Accuracy Score:  0.5194805194805194
+Confusion Matrix:  [[27, 7], [30, 13]]
+
+SUBJECT #56.0
+Accuracy Score:  0.5194805194805194
+Confusion Matrix:  [[21, 18], [19, 19]]
+
+SUBJECT #57.0
+Accuracy Score:  0.3972602739726027
+Confusion Matrix:  [[29, 0], [44, 0]]
+
+SUBJECT #58.0
+Accuracy Score:  0.5352112676056338
+Confusion Matrix:  [[11, 11], [22, 27]]
+
+SUBJECT #59.0
+Accuracy Score:  0.5352112676056338
+Confusion Matrix:  [[9, 6], [27, 29]]
+
+SUBJECT #60.0
+Accuracy Score:  0.5769230769230769
+Confusion Matrix:  [[18, 12], [21, 27]]
+
+SUBJECT #61.0
+Accuracy Score:  0.47368421052631576
+Confusion Matrix:  [[15, 16], [24, 21]]
+
+SUBJECT #62.0
+Accuracy Score:  0.5454545454545454
+Confusion Matrix:  [[34, 12], [23, 8]]
+
+SUBJECT #63.0
+Accuracy Score:  0.4264705882352941
+Confusion Matrix:  [[13, 17], [22, 16]]
+
+SUBJECT #64.0
+Accuracy Score:  0.676056338028169
+Confusion Matrix:  [[27, 13], [10, 21]]
+
+SUBJECT #65.0
+Accuracy Score:  0.4805194805194805
+Confusion Matrix:  [[25, 8], [32, 12]]
+
+SUBJECT #66.0
+Accuracy Score:  0.4520547945205479
+Confusion Matrix:  [[21, 8], [32, 12]]
+
+SUBJECT #67.0
+Accuracy Score:  0.547945205479452
+Confusion Matrix:  [[16, 13], [20, 24]]
+
+SUBJECT #68.0
+Accuracy Score:  0.5774647887323944
+Confusion Matrix:  [[17, 12], [18, 24]]
+
+SUBJECT #69.0
+Accuracy Score:  0.5294117647058824
+Confusion Matrix:  [[18, 15], [17, 18]]
+
+SUBJECT #70.0
+Accuracy Score:  0.6571428571428571
+Confusion Matrix:  [[37, 8], [16, 9]]
+
+SUBJECT #71.0
+Accuracy Score:  0.5866666666666667
+Confusion Matrix:  [[21, 15], [16, 23]]
+
+SUBJECT #73.0
+Accuracy Score:  0.5352112676056338
+Confusion Matrix:  [[28, 8], [25, 10]]
+
+SUBJECT #74.0
+Accuracy Score:  0.42857142857142855
+Confusion Matrix:  [[18, 6], [34, 12]]
+
+SUBJECT #75.0
+Accuracy Score:  0.676056338028169
+Confusion Matrix:  [[22, 8], [15, 26]]
+
+SUBJECT #76.0
+Accuracy Score:  0.5915492957746479
+Confusion Matrix:  [[18, 11], [18, 24]]
+
+SUBJECT #77.0
+Accuracy Score:  0.39436619718309857
+Confusion Matrix:  [[15, 6], [37, 13]]
+
+SUBJECT #78.0
+Accuracy Score:  0.4805194805194805
+Confusion Matrix:  [[13, 14], [26, 24]]
+
+SUBJECT #79.0
+Accuracy Score:  0.5540540540540541
+Confusion Matrix:  [[20, 16], [17, 21]]
+
+SUBJECT #80.0
+Accuracy Score:  0.6666666666666666
+Confusion Matrix:  [[26, 14], [10, 22]]
+
+SUBJECT #81.0
+Accuracy Score:  0.5915492957746479
+Confusion Matrix:  [[34, 11], [18, 8]]
+
+SUBJECT #82.0
+Accuracy Score:  0.56
+Confusion Matrix:  [[30, 23], [10, 12]]
+
+SUBJECT #83.0
+Accuracy Score:  0.7027027027027027
+Confusion Matrix:  [[29, 13], [9, 23]]
+
+SUBJECT #84.0
+Accuracy Score:  0.5606060606060606
+Confusion Matrix:  [[20, 15], [14, 17]]
+
+Subjects for which the Logistic Regression either predicted
+the subject was always accuaracte or always inaccurate:
+[18.0, 37.0, 57.0]
+Due to these models being biased to always pick the same end result,
+they were excluded from further study of the participant models.
+
+A T-test was conducted on the remaining subjects model accuracies
+to see if there was strong evidence that the logistic regression
+model accuracy was higher than random chance (50% accuracy)
+
+Sample Size              : 77
+Mean of Sample Accuracies: 0.5513
+Standard Deviation       : 0.074
+P Value of T-Test        : 0.0519
+
+Since the P-Value is less than 0.05, we can say these results
+are significant, and therefore there is strong evidence that our
+modeling technique predicts memory accuracy.
