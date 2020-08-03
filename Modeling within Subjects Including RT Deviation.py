@@ -156,13 +156,13 @@ all_X = [data[i][0:4] for i in range(len(data))]
 all_y = [data [i][5] for i in range(len(data))]
 '''
 
-outfile = open("logistic_reg_no_RT.txt", "w")
+outfile = open("temp.txt", "w")
 
 all_subjects_regression_data = []
 
 for ID in pid_list:
     
-    X = [data[i][0:4] for i in range(len(data)) if ID == data[i][6]]
+    X = [data[i][0:5] for i in range(len(data)) if ID == data[i][6]]
     y = [data [i][5] for i in range(len(data)) if ID == data[i][6]]
     
     X, y = np.array(X), np.array(y)
@@ -170,6 +170,7 @@ for ID in pid_list:
     X = preprocessing.normalize(X)
     
     regressor = LogisticRegressionCV(cv = 5, solver='lbfgs', class_weight='balanced')
+    #regressor = nb.ComplementNB()
     
     regressor.fit(X, y) #training the algorithm
     
@@ -179,6 +180,7 @@ for ID in pid_list:
     print("Logistic Regression with Cross Validation", file=outfile)
     accuracy_score = regressor.score(X, y)
     print("Accuracy Score: ", accuracy_score, file=outfile)
+    '''   
     intercept = regressor.intercept_[0]
     print("Intercept: ", intercept, file=outfile)
     print("Coefficients: ", file=outfile)
@@ -191,11 +193,11 @@ for ID in pid_list:
     for coef in coefs:
         print("   ", coefs_name[counter], ": ", coef, sep="", file=outfile)
         counter += 1
-    
+    '''   
     c_matrix = confusion_matrix(y, y_pred).tolist()
     print("Confusion Matrix: ", c_matrix, file=outfile)
     
-    all_subjects_regression_data.append([ID, accuracy_score, intercept, coefs, c_matrix])
+    all_subjects_regression_data.append([ID, accuracy_score, c_matrix])
 
 def bad_model(matrix):
     if (matrix[0][0] == 0) and (matrix[1][0] == 0):
@@ -207,7 +209,7 @@ def bad_model(matrix):
 print("\nSubjects for which the Logistic Regression either predicted", file=outfile)
 print("the subject was always accuaracte or always inaccurate:", file=outfile)
 
-bad_models_pid_list = [regression_set[0] for regression_set in all_subjects_regression_data if bad_model(regression_set[4])]
+bad_models_pid_list = [regression_set[0] for regression_set in all_subjects_regression_data if bad_model(regression_set[2])]
 
 print(bad_models_pid_list, file=outfile)
 print("Due to these models being biased to always pick the same end result,", file=outfile)
@@ -229,6 +231,8 @@ sd = np.std(good_subjects_model_accuracy, ddof=1)
 SE = sd/(n**0.5)
 t_c = (avg - mu_not) /SE
 p = 1 - t.cdf(abs(t_c), 1)
+print("t=", round(t_c, 4))
+print("p=", round(p, 4))
 
 print("\nSample Size              :", n, file=outfile)
 print("Mean of Sample Accuracies:", round(avg, 4), file=outfile)
